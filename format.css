@@ -1,0 +1,19 @@
+#name
+{
+color:magenta;    
+}
+
+#make
+{
+color:forestgreen;    
+}
+
+#six
+{
+position:absolute;
+    left:660px;
+    right:500px;
+    top:300px;
+    bottom:50px;
+    
+}
