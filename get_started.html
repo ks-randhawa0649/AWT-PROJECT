@@ -1,15 +1,24 @@
 <html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="C:\Users\KUNWARJIT SINGH\Desktop\Bootstrap\bootstrap.css">
-<script src="C:\Users\KUNWARJIT SINGH\Desktop\Jquery\jquery-3.4.1.min.js"></script>
-<script src="C:\Users\KUNWARJIT SINGH\Desktop\Bootstrap\bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 <style>
+
+body
+{
+background-image: url("headimg.jpg");	
+}
+
+#main
+{
+background-image: url("cream.jpg");	
+}
+
 #d1 {
   height: 270px;
-  background-color: #cccccc;
-  background-image: url("headimg.jpg");
   background-position: center;
   background-repeat:repeat;
   background-size:cover;
@@ -17,11 +26,12 @@
 }
 
 
-#main
-{
-background-image: url("cream.jpg"); 
-}
 
+
+.card:hover
+{
+opacity: 0.7;	
+}
 
 </style>
 
@@ -33,16 +43,16 @@ background-image: url("cream.jpg");
 
 <body>
 <div id="main" class="container">  
-<div id="d1" class="container"><h1 class="overlay display-2 text-white" align="center">WELCOME TO <I>CURIO<I></h1></div>
+<div id="d1" class="container"><br><br><br><h1 class="overlay display-2 text-dark" align="center">WELCOME TO <I>CURIO<I></h1></div>
 <br><br><br>
 <div class="card-columns">
 
 <div class="card bg-primary">
 <img class="card-img-top" src="astro.jpg" alt="Card image" style="width:100%">
-<div class="card-body" onmouseover="opac()">
+<div class="card-body">
 <h4 class="card-title">Astrology</h4>
 <p class="card-text">Know your stars spelling your charmest future!</p>
-<a href="#" class="stretched-link"></a>
+<a href="astrology.html" class="stretched-link"></a>
 </div>
 </div>
 
@@ -78,7 +88,7 @@ background-image: url("cream.jpg");
 <div class="card-body">
 <h4 class="card-title">Arts & Music</h4>
 <p class="card-text">Treat your eyes with wonderful art along with beats of music !</p>
-<a href="#" class="stretched-link"></a>
+<a href="Arts&Music.html" class="stretched-link"></a>
 </div>
 </div>
 
